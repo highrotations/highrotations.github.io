@@ -1,0 +1,264 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #F9F9F9
+}
+
+.high {
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif
+}
+
+body {
+	margin: 0px;
+	font-family: "Courier New";
+	a:link { 
+	letter-spacing: 2px;
+	}
+
+}
+#Wrapper {
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 20px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	color: #FFF;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+	background-color: #FFF;
+}
+
+}
+.menu ul {
+	background-color: #FFF;
+	margin: 0px;
+	height: 38px;
+	border-bottom-style: solid;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.menu ul li {
+	list-style-type: none;
+	float: left;
+    padding-bottom: 30px
+}
+.menu ul li a   {
+	color: #FFF;
+	background-color: #496A8C;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	display: block;
+	height: 36px;
+	width: 159px;
+	line-height: 36px;
+	text-align: center;
+	border-left-width: thin;
+	border-left-style: solid;
+	border-left-color: #FFF;
+	float: none;
+	font-weight: bold;
+}
+
+.menu ul li a:hover{
+    background-color: #6D87A3
+}
+
+a:hover {
+	background-color: #6D87A3;
+	color: #FFFFFF;
+	text-decoration: none;
+	}
+
+#body    {
+	background-color: #F33;
+	float: none;
+}
+
+#body {
+	width: 790px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+	padding: 5px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	clear: none;
+	background-color: #FFF;
+}
+
+#body {
+	width: 790px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 16px;
+	padding: 5px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	color: #333;
+	border-left-color: #000;
+	border-right-color: #000;
+	font-weight: bolder;
+	letter-spacing: -0.5px;
+}
+
+#footer {
+	background-image: url(Images/site-footer.jpg);
+	background-repeat: no-repeat;
+	height: 51px;
+	width: 800px;
+	background-color: #999;
+}
+#header2 {
+	background-color: #FFF;
+	background-image: url(Images/site-header.jpg);
+	background-repeat: no-repeat;
+	height: 350px;
+	width: 800px;
+	border-top-style: 0;
+	border-right-style: 0;
+	border-bottom-style: 0;
+	border-left-style: 0;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+	padding: 0px;
+}
+
+.links {
+	text-align: center;
+	display: block;
+	height: 500px;
+	width: 250px;
+	float: none;
+}
+
+#Wrapper {
+	color: #000;
+	background-color: #FFF;
+}
+#body h6 br {
+	color: #000;
+}
+
+.content table{
+    margin: 0 auto
+}
+
+.content td{
+    padding: 20px; 
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    display: table;
+}
+
+.image-container img {
+    display: block;
+}
+
+.image-container .after {
+    font-family: "Courier New", Courier, monospace;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+    vertical-align: middle
+}
+
+.image-container:hover .after {
+    display: block;
+    background: rgba(0, 0, 0, .6);
+}
+
+.image-container .after .over {
+    position: absolute;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.image-container .after .zoom {
+    color: #DDD;
+    font-size: 48px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -30px 0 0 -19px;
+    height: 50px;
+    width: 45px;
+    cursor: pointer;
+}
+
+.image-container .after .zoom:hover {
+    color: #FFF;
+}
+
+.image-container .over{
+    vertical-align: middle
+}
+
+.after{
+    display: inline-block;
+    vertical-align: middle
+}
+
+.albumname{
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 20px
+}
+
+.album{
+    font-size: 17px
+}
+
+a:hover{
+    text-decoration: none
+}
+.hyper:hover{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-family: "Courier New", Courier, monospace;
+    text-transform: none
+}
+
+.logo{
+    margin: 0 auto
+}
+
+.menu a.active{
+    background-color: #6D87A3;
+}

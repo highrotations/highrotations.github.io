@@ -238,6 +238,23 @@ body {
     font-size: 17px
 }
 
+.latesthome{
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 18px
+}
+
+.hyperhome{
+    color: black;
+    text-decoration: none;
+}
+
+.hyperhome:hover{
+    color: #496A8C;
+    background-color: white;
+    text-decoration: none
+}
+
 .hyper{
     color: black;
 }
@@ -257,22 +274,7 @@ body {
     background-color: #6D87A3;
 }
 
-.latesthome{
-    font-family: sans-serif;
-    letter-spacing: 0.5px;
-    font-size: 18px
-}
 
-.hyperhome{
-    color: black;
-    text-decoration: none;
-}
-
-.hyperhome:hover{
-    color: #496A8C;
-    background-color: white;
-    text-decoration: none
-}
 
 .homedate{
     font-size: 17px
